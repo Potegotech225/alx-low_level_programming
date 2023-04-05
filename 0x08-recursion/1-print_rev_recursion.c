@@ -1,19 +1,13 @@
 #include "main.h"
+#include <unistd.h>
 /**
- * _strlen_recursion - Returns the length of a string.
- * @s: The string to be measured.
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
  *
- * Return: The length of the string.
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
-int _strlen_recursion(char *s)
+int _putchar(char c)
 {
-	int longit = 0;
-
-	if (*s)
-	{
-		longit++;
-		longit += _strlen_recursion(s + 1);
-	}
-
-	return (longit);
+	return (write(1, &c, 1));
 }
