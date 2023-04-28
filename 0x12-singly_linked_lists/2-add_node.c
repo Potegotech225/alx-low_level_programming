@@ -3,11 +3,11 @@
 #include "lists.h"
 
 /**
- * add_node - adds a new node at the beginning of a linked list
- * @head: double pointer to the list_t list
- * @str: new string to add in the node
+ * add_node - add a node at the beginning of a linked list
+ * @head: doubles the pointers to the list_t list
+ * @str: new string to add in node
  *
- * Return: the address of the new element, or NULL if it fails
+ * Return: address of the new elements, or NULL if it is failing
  */
 list_t *add_node(list_t **head, const char *str)
 {
@@ -28,4 +28,3 @@ list_t *add_node(list_t **head, const char *str)
 
 	return (*head);
 }
-
