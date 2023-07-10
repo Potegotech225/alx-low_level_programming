@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * append_text_to_file: it Appends a text at the end of a file.
+ * append_text_to_file - It Appends a text at the end of a file.
  * @filename: pointer to the name of the file.
  * @text_content: string to be add at the end of the file.
  *
