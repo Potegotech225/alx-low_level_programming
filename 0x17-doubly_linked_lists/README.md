@@ -2,4 +2,3 @@
 C
 Algorithm
 Data structure
-Tasks
